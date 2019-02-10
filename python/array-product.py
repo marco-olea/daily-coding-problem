@@ -22,17 +22,17 @@ def without_division(numbers: list):
 	"""
 	Credit: github.com/subsr97/daily-coding-problem/blob/master/challenges/product-array-puzzle.py
 	"""
-    n = len(numbers)
-    left = [1] * n
-    right = [1] * n
+	n = len(numbers)
+	left = [1] * n
+	right = [1] * n
 
-    for i in range(1, n):
-        left[i] = numbers[i - 1] * left[i - 1]
+	for i in range(1, n):
+		left[i] = numbers[i - 1] * left[i - 1]
 
-    for i in range(n - 2, -1, -1):
-        right[i] = numbers[i + 1] * right[i + 1]
+	for i in range(n - 2, -1, -1):
+		right[i] = numbers[i + 1] * right[i + 1]
 
-    return [left[i] * right[i] for i in range(n)]
+	return [left[i] * right[i] for i in range(n)]
 
 if __name__ == "__main__":
 	numbers = [int(a) for a in input().strip().split()]
