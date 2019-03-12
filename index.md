@@ -4,6 +4,8 @@
 * [#2 Array product](./problems/python/array-product.py) ([Credit](https://github.com/subsr97/daily-coding-problem/blob/master/challenges/product-array-puzzle.py))
 * [#3 Serialize and deserialize a binary tree](./problems/python/serialize-deserialize-binary-tree.py)
 * [#4 Find the first missing positive integer in an array](./problems/python/first-missing-positive-integer.py)
-* [#5 Implement car and car for a pair](./problems/python/pair-car-cdr.py)
+* [#5 Implement car and cdr for a pair](./problems/python/pair-car-cdr.py)
+* [#7 Simple decoding of a message](./problems/python/simple-decoding-of-message.py)
+* [#33 Running median of a sequence of numbers](./problems/python/running-median-of-sequence.py)
 ## Lessons
 * [#1 Thought process for solving tricky coding interview questions](./lessons/How%20To%20Solve%20a%20Hard%20Programming%20Interview%20Question.pdf)
