@@ -11,3 +11,44 @@ For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should g
 
 You can modify the input array in-place.
 """
+
+from typing import List
+
+def brute_force(numbers: List[int]) -> int:
+	numbers.sort()
+	fmpi = 0
+	# Find first positive integer
+	for x in numbers:
+		if x > 0:
+			fmpi = x
+			break
+	# If no positive integers or first positive integer is greater than 1:
+	if fmpi != 1:
+		return 1
+	# Find first missing positive integer
+	while (fmpi + 1) in numbers:
+		fmpi += 1
+	return fmpi + 1
+
+def fmpi(numbers: List[int]) -> int:
+	if not numbers:
+		return 1
+	fmpi = max(numbers)
+	# Find minimum positive integer
+	for x in numbers:
+		if x > 0 and x < fmpi:
+			fmpi = x
+	# If no positive integers or minimum positive integer is greater than 1:
+	if fmpi != 1:
+		return 1
+	# TODO: The following is correct but no longer linear, needs refinement
+	# Find first missing positive integer
+	while (fmpi + 1) in numbers:
+		fmpi += 1
+	return fmpi + 1
+
+if __name__ == '__main__':
+	numbers = [int(i) for i in input().strip().split()]
+	print(brute_force(numbers))
+	print(fmpi(numbers))
+
