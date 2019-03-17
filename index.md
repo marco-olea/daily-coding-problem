@@ -8,9 +8,10 @@
 * [#7 Simple decoding of a message](./problems/python/simple-decoding-of-message.py)
 * [#33 Running median of a sequence of numbers](./problems/python/running-median-of-sequence.py)
 * [#37 Power set of a set](./problems/python/power-set.py)
+* [#38 N-Queens Problem](./problems/python/n-queens-problem.py)
 ## Lessons
 * [#1 Thought process for solving tricky coding interview questions](./lessons/How%20To%20Solve%20a%20Hard%20Programming%20Interview%20Question.pdf)
 * [#2 Formulaically solve tree interview questions](./lessons/How%20to%20Formulaically%20Solve%20Tree%20Interview%20Questions.pdf)
 * [#3 Introduction to Backtracking](./lessons/An%20Introduction%20To%20Backtracking.pdf)
-* [#4 Pick a random element from an infinite stream](./lessons/How%20to%20Pick%20a%20Random%20Element%20from an%20Infinite%20Stream.pdf)
+* [#4 Pick a random element from an infinite stream](./lessons/How%20to%20Pick%20a%20Random%20Element%20from%20an%20Infinite%20Stream.pdf)
 * [#5 Daily Coding Problem Book](./lessons/The%20Daily%20Coding%20Problem%20Book%20Is%20Now%20Available.pdf)
