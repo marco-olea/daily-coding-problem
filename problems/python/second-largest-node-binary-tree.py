@@ -78,7 +78,8 @@ class BinarySearchTree(Generic[T]):
 
 if __name__ == '__main__':
 	tree = BinarySearchTree()
-	tree.add(0,-1,-2,-3,1,2,3,4,5,6,7,8,9,10)
+	numbers = [int(i) for i in input().strip().split()]
+	tree.add(*numbers)
 	print(tree.second_largest().e)
 
 

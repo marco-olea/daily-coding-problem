@@ -7,6 +7,8 @@
 * [#5 Implement car and cdr for a pair](./problems/python/pair-car-cdr.py)
 * [#7 Simple decoding of a message](./problems/python/simple-decoding-of-message.py)
 * [#33 Running median of a sequence of numbers](./problems/python/running-median-of-sequence.py)
+* [#35 Segregate RGB array](./problems/python/array-segregation.py)
+* [#36 Find the second-largest node in a binary tree](./problems/python/second-largest-node-binary-tree.py)
 * [#37 Power set of a set](./problems/python/power-set.py)
 * [#38 N-Queens Problem](./problems/python/n-queens-problem.py)
 ## Lessons
