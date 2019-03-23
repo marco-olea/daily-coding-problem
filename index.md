@@ -9,6 +9,9 @@
 * [#36 Find the second-largest node in a binary tree](./problems/python/second_largest_node_binary_tree.py)
 * [#37 Power set of a set](./problems/python/power_set.py)
 * [#38 N-Queens Problem](./problems/python/n_queens.py)
+* [#40 Find non-duplicated integer in array](./problems/python/find_non_duplicated_integer.py)
+* [#42 Subset-Sum Problem](./problems/python/subset_sum.py)
+* [#43 Stack with O(1) push, pop, and max](./problems/python/stack.py)
 ## Lessons
 * [#1 Thought process for solving tricky coding interview questions](./lessons/How%20To%20Solve%20a%20Hard%20Programming%20Interview%20Question.pdf)
 * [#2 Formulaically solve tree interview questions](./lessons/How%20to%20Formulaically%20Solve%20Tree%20Interview%20Questions.pdf)

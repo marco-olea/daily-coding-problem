@@ -31,8 +31,6 @@ def brute_force(numbers: List[int]) -> int:
 	return fmpi + 1
 
 def fmpi(numbers: List[int]) -> int:
-	if not numbers:
-		return 1
 	fmpi = max(numbers)
 	# Find minimum positive integer
 	for x in numbers:
