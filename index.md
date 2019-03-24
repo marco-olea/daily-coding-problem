@@ -1,9 +1,11 @@
 # Daily Coding Problem
+
 ## Problems
 * [#1 Determine if an array has a pair that adds to k](./problems/python/array_has_pair_adds_to_k.py)
 * [#2 Array product](./problems/python/array-product.py) ([Credit](https://github.com/subsr97/daily-coding-problem/blob/master/challenges/product_array_puzzle.py))
 * [#3 Serialize and deserialize a binary tree](./problems/python/serialize_deserialize_binary_tree.py)
 * [#4 Find the first missing positive integer in an array](./problems/python/first_missing_positive_integer.py)
+* [#5 Implement car and cdr for a pair with a given cons implementation)](./problems/python/pair_car_cdr.py)
 * [#33 Running median of a sequence of numbers](./problems/python/running_median_of_sequence.py)
 * [#35 Segregate RGB array](./problems/python/array_segregation.py)
 * [#36 Find the second-largest node in a binary tree](./problems/python/second_largest_node_binary_tree.py)
@@ -12,6 +14,7 @@
 * [#40 Find non-duplicated integer in array](./problems/python/find_non_duplicated_integer.py)
 * [#42 Subset-Sum Problem](./problems/python/subset_sum.py)
 * [#43 Stack with O(1) push, pop, and max](./problems/python/stack.py)
+
 ## Lessons
 * [#1 Thought process for solving tricky coding interview questions](./lessons/How%20To%20Solve%20a%20Hard%20Programming%20Interview%20Question.pdf)
 * [#2 Formulaically solve tree interview questions](./lessons/How%20to%20Formulaically%20Solve%20Tree%20Interview%20Questions.pdf)
