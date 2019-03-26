@@ -16,7 +16,7 @@ T = TypeVar('T')
 
 def power_set(s: Set[T]) -> Set[Set[T]]:
 	power = {frozenset()}
-	while len(power) != 2**len(s):
+	while len(power) < 2**len(s):
 		power |= {frozenset(y | {x}) for y in power for x in s}
 	return power
 
