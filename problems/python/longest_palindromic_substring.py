@@ -24,7 +24,7 @@ def get_all_substrings(string: str) -> List[str]:
 	if len(string) == 0:
 		return []
 	# Start with substrings of length 1, then form all possible contiguous substrings of length 2,
-	# then form all possible contigous substrings of length 3, and so on.
+	# then form all possible contiguous substrings of length 3, and so on.
 	substrings = [[(string[i], i) for i in range(len(string))]]
 	while len(substrings[-1][0][0]) < len(string):
 		substrings += [[
