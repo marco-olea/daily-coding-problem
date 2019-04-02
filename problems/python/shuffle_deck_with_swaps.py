@@ -16,9 +16,9 @@ from random import randint
 def shuffled_deck():
 	deck = [rank + suit 
 		for suit in ['s', 'c', 'd', 'h']
-		for rank in ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']]
+		for rank in ['A', '2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K']]
 	for i in range(52):
-		j = randint(i, 51)
+		j = 52 - randint(1, 52 - i)
 		aux = deck[i]
 		deck[i] = deck[j]
 		deck[j] = aux

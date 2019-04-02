@@ -18,6 +18,8 @@
 * [#46 Find longest palindromic contiguous substring](./problems/python/longest_palindromic_substring.py)
 * [#47 Maximize profit given stock price history](./problems/python/maximum_profit_stock_history.py)
 * [#50 Evaluate an arithmetic expression given as a binary tree](./problems/python/arithmetic_expression_as_binary_tree.py)
+* [#51 Shuffle deck with swaps and RNG](./problems/python/shuffle_deck_with_swaps.py)
+* [#52 Implement a queue using two stacks](./problems/python/queue_with_two_stacks.py)
 
 ## Lessons
 * [#1 Thought process for solving tricky coding interview questions](./lessons/How%20To%20Solve%20a%20Hard%20Programming%20Interview%20Question.pdf)
