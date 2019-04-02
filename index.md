@@ -17,6 +17,7 @@
 * [#45 Implement rand7() using rand5()](./problems/python/rand7_with_rand5.py)
 * [#46 Find longest palindromic contiguous substring](./problems/python/longest_palindromic_substring.py)
 * [#47 Maximize profit given stock price history](./problems/python/maximum_profit_stock_history.py)
+* [#50 Evaluate an arithmetic expression given as a binary tree](./problems/python/arithmetic_expression_as_binary_tree.py)
 
 ## Lessons
 * [#1 Thought process for solving tricky coding interview questions](./lessons/How%20To%20Solve%20a%20Hard%20Programming%20Interview%20Question.pdf)
