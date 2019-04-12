@@ -19,7 +19,9 @@
 * [#47 Maximize profit given stock price history](./problems/python/maximum_profit_stock_history.py)
 * [#50 Evaluate an arithmetic expression given as a binary tree](./problems/python/arithmetic_expression_as_binary_tree.py)
 * [#51 Shuffle deck with swaps and RNG](./problems/python/shuffle_deck_with_swaps.py)
-* [#52 Implement a queue using two stacks](./problems/python/queue_with_two_stacks.py)
+* [#53 Implement a queue using two stacks](./problems/python/queue_with_two_stacks.py)
+* [#62 Traverse matrix of zeroes by moving either down or right](./problems/python/traverse_matrix_of_zeroes.py)
+* [#63 Search for word in matrix from left to right or up to down](./problems/python/left_right_or_up_down_word_search.py)
 
 ## Lessons
 * [#1 Thought process for solving tricky coding interview questions](./lessons/How%20To%20Solve%20a%20Hard%20Programming%20Interview%20Question.pdf)
