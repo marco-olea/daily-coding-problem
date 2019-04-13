@@ -20,6 +20,7 @@
 * [#50 Evaluate an arithmetic expression given as a binary tree](./problems/python/arithmetic_expression_as_binary_tree.py)
 * [#51 Shuffle deck with swaps and RNG](./problems/python/shuffle_deck_with_swaps.py)
 * [#53 Implement a queue using two stacks](./problems/python/queue_with_two_stacks.py)
+* [#61 Integer exponentiation](./problems/python/integer_exponentiation.py)
 * [#62 Traverse matrix of zeroes by moving either down or right](./problems/python/traverse_matrix_of_zeroes.py)
 * [#63 Search for word in matrix from left to right or up to down](./problems/python/left_right_or_up_down_word_search.py)
 
