@@ -11,16 +11,14 @@ Do this faster than the naive method of repeated multiplication.
 For example, pow(2, 10) should return 1024.
 """
 
-def power(base: int, exp: int):
-	size = 0 # Number of bits in exp
-	aux_exp = exp
-	while aux_exp > 0:
-		aux_exp >>= 1
-		size += 1
-	result, i = 1, 1 
-	while i <= size: # result{k} = base^(b{k}) * result{k+1}^2 where exp = b{k}b{k-1}...b{0} (bits)
-		result = base ** (exp >> size - i & 1) * result ** 2 # Precedence: (exp >> (size - i)) & 1
-		i += 1
+# Square and multiply algorithm
+def power(base: int, exp: int): 
+	result, next_bit = 1, 0
+	while exp >> next_bit > 0:
+		next_bit += 1
+	while next_bit > 0: # result{k} = result{k+1}^2 * base^(b{k}) where exp = b{k}b{k-1}...b{0} (bits)
+		result = result ** 2 * base ** (exp >> next_bit - 1 & 1) # (exp >> (next_bit - 1)) & 1
+		next_bit -= 1
 	return result
 
 if __name__ == '__main__':
