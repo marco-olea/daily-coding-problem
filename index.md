@@ -23,6 +23,8 @@
 * [#61 Integer exponentiation](./problems/python/integer_exponentiation.py)
 * [#62 Traverse matrix of zeroes by moving either down or right](./problems/python/traverse_matrix_of_zeroes.py)
 * [#63 Search for word in matrix from left to right or up to down](./problems/python/left_right_or_up_down_word_search.py)
+* [#65 Print the clockwise spiral of a matrix](./problems/python/clockwise_spiral_of_matrix.py)
+* [#66 Simulate unbiased coin toss with biased coin toss](./problems/python/biased_coin_toss.py)
 
 ## Lessons
 * [#1 Thought process for solving tricky coding interview questions](./lessons/How%20To%20Solve%20a%20Hard%20Programming%20Interview%20Question.pdf)
