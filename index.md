@@ -25,6 +25,8 @@
 * [#63 Search for word in matrix from left to right or up to down](./problems/python/left_right_or_up_down_word_search.py)
 * [#65 Print the clockwise spiral of a matrix](./problems/python/clockwise_spiral_of_matrix.py)
 * [#66 Simulate unbiased coin toss with biased coin toss](./problems/python/biased_coin_toss.py)
+* [#69 Largest three factor product in array](./problems/python/largest_three_factor_product.py)
+* [#70 Get the n-th perfect number](./problems/python/nth_perfect_number.py)
 
 ## Lessons
 * [#1 Thought process for solving tricky coding interview questions](./lessons/How%20To%20Solve%20a%20Hard%20Programming%20Interview%20Question.pdf)
